@@ -22,7 +22,7 @@ public class ManualOauthRequestController {
 
     private static Logger logger = LoggerFactory.getLogger(ManualOauthRequestController.class);
 
-    private static final String RESOURCE_ENDPOINT = "localhost:8082/spring-security-oauth-resource/foos/1";
+    private static final String RESOURCE_ENDPOINT = "localhost:2990/jira/rest/oauth2/1.0/client";
     
     @Value("${the.authorization.client-id}")
     private String clientId;
